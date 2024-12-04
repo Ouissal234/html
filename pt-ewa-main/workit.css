@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+ background-color: white;
+ font-size: 1rem ;
+ line-height: 1.4;
+ color: #222;
+}
+header {
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    background-color: blueviolet;
+  }
+.header-nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+ } 
+ 
+.green-underLine{
+    text-underline-offset: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+ }
+ 
+.header-text{
+    font-size: 2rem;
+   color: aliceblue;
+
+}
+.text-underLine{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    
+   }
+button{ 
+   background-color: aqua;
+    font-size: 1.5rem;
+    width: 12rem;
+    height: 5rem;
+   
+  }
+
+
+.festure-text{
+display: flex;
+flex-direction: column;
+}
+.container{
+     max-width: 1000px;
+     margin: 20px auto;
+     text-align: center;
+     flex-direction: row;
+     display: flex;
+      
+  }
+  
+.header-ntt{
+    background-color: aliceblue;
+}
+.festure-number {
+    border: solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50%;
+}
+.festure-text {
+    font-size: 1rem;
+    color: #222;
+    margin: 10%;
+   
+  }
+  .header-ntt{
+    background-color: rgb(250, 222, 227);
+  }
+  .hero-img{
+    position: relative;
+    margin-bottom: 50px;
+    width: 50% ;
+    height: 200px;
+  }
+  
+  .hero-wave {
+    transform: rotate(180deg); /* Rotates the image 180 degrees */
+    display: block; /* Ensures it's treated as a block element for alignment */
+    margin: 0 auto; /* Centers the image if needed */
+    width: 100%;
+    object-fit: cover;
+    transition: filter 0.5s ease;
+      }
+ .founder{
+    width: 300px ;
+    height: 300px;
+  }
+ .fond{
+   background-color: blueviolet;
+margin-left: 50%;
+   width: 10cm;
+   height: 6cm;
+
+ }
+ footer{
+    margin-left: 670px;
+ }
+ 
+
